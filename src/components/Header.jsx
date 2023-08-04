@@ -4,13 +4,13 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export default function Header() {
   const [isOpened, setIsOpened] = useState(false);
   const navLinkClassName =
-    "w-full border-t border-zinc-800 bg-orange-200 py-1 text-center";
+    "w-full border-t border-zinc-800 bg-second py-1 text-center";
   return (
-    <div className="sticky  top-0 h-20 w-screen ">
-      <div className="m-auto flex flex-col bg-orange-200 ">
-        <div className="my-4 flex  h-9 w-full justify-between px-9">
-          <h1 className="self-center text-3xl font-thin [text-shadow:_0_0_3px_rgb(255_255_255_/_20%)]">
-            ARTHUR TROVATO
+    <div className="fixed top-0 w-screen ">
+      <div className="m-auto flex w-full flex-col bg-second ">
+        <div className="my-4 flex h-9 w-full justify-between px-6">
+          <h1 className="self-center text-3xl  [text-shadow:_0_0_3px_rgb(255_255_255_/_20%)]">
+            Arthur Trovato
           </h1>
           <button
             className="relative left-2 h-full w-9"
@@ -33,44 +33,44 @@ export default function Header() {
             className={`${navLinkClassName}`}
             href="#first"
           >
-            PRESENTATION
+            Présentation
           </a>
           <a
             onClick={() => setIsOpened(!isOpened)}
             className={`${navLinkClassName}`}
             href="#"
           >
-            COMPETENCES
+            Compétences
           </a>
           <a
             onClick={() => setIsOpened(!isOpened)}
             className={`${navLinkClassName}`}
             href="#"
           >
-            PORTFOLIO
+            Portfolio
           </a>
           <a
             onClick={() => setIsOpened(!isOpened)}
             className={`${navLinkClassName}`}
             href="#"
           >
-            A PROPOS
+            A propos
           </a>
           <a
             onClick={() => setIsOpened(!isOpened)}
             className={`${navLinkClassName}`}
             href="#"
           >
-            CONTACT
+            Contact
           </a>
           <a
             onClick={() => setIsOpened(!isOpened)}
-            className={`${navLinkClassName}`}
+            className={`${navLinkClassName} border-b`}
             href="https://github.com/Houroux/my-portfolio/blob/master/public/CV_2023-08-03_Arthur_TROVATO.pdf"
             target="_blank"
             rel="noopener noreferrer"
           >
-            TELECHARGER LE CV
+            Télécharger le CV
           </a>
         </nav>
       </div>

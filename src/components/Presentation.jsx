@@ -3,7 +3,7 @@ import pdp from "../img/IMG_2473.jpg";
 
 export default function Presentation() {
   return (
-    <div className="mt-20 flex flex-col items-center gap-2 bg-green-200 px-8 py-12 text-justify text-base">
+    <div className="mt-20 flex flex-col items-center gap-4 bg-second px-8 py-12 text-justify text-base">
       <img
         src={pdp}
         className=" h-36 w-36 rounded-full object-cover "
