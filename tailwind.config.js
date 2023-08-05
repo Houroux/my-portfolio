@@ -7,6 +7,7 @@ module.exports = {
         first: "#FFFFFF",
         second: "#FFF4E8",
         third: "#8BC7B1",
+        projectbg: "#DBD2C8",
       },
     },
   },

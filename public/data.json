@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Application web de location immobilière Kasa",
+    "cover": "/img/P6/brave_UCzUcGnqlf.png",
+    "pictures": [
+      "/img/P6/brave_UCzUcGnqlf.png",
+      "/img/P6/brave_tDcNJDhzFD.png",
+      "/img/P6/brave_BACQ2aFdMU.png",
+      "/img/P6/brave_i0m9g5FWq1.png"
+    ],
+    "description": "Démarrer le projet React et développer l’ensemble du front-end de l'application les composants React, les routes React Router, en suivant les maquettes Figma responsives.",
+    "tools": ["React", "Sass", "VSCode", "GitHub"]
+  }
+]

@@ -6,7 +6,7 @@ export default function Header() {
   const navLinkClassName =
     "w-full border-t border-zinc-800 bg-second py-1 text-center";
   return (
-    <div className="fixed top-0 w-screen ">
+    <div className="fixed top-0 z-10 w-screen">
       <div className="m-auto flex w-full flex-col bg-second ">
         <div className="my-4 flex h-9 w-full justify-between px-6">
           <h1 className="self-center text-3xl  [text-shadow:_0_0_3px_rgb(255_255_255_/_20%)]">
