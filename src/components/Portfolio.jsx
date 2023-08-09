@@ -4,7 +4,7 @@ import Project from "./Projet";
 export default function Portfolio() {
   const [projets, setProjects] = useState([]);
   const getProjects = () => {
-    fetch("../../data.json", {
+    fetch(`${process.env.PUBLIC_URL + "/data.json"}`, {
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",
@@ -28,7 +28,6 @@ export default function Portfolio() {
         {projets.map((project) => (
           <Project
             key={project.title}
-            cover={project.cover}
             title={project.title}
             pictures={project.pictures}
             description={project.description}

@@ -1,14 +1,61 @@
 [
   {
     "title": "Application web de location immobilière Kasa",
-    "cover": "/img/P6/brave_UCzUcGnqlf.png",
     "pictures": [
       "/img/P6/brave_UCzUcGnqlf.png",
       "/img/P6/brave_tDcNJDhzFD.png",
       "/img/P6/brave_BACQ2aFdMU.png",
       "/img/P6/brave_i0m9g5FWq1.png"
     ],
-    "description": "Démarrer le projet React et développer l’ensemble du front-end de l'application les composants React, les routes React Router, en suivant les maquettes Figma responsives.",
-    "tools": ["React", "Sass", "VSCode", "GitHub"]
+    "description": "Développer l’ensemble du front-end de l'application, les composants React, les routes React Router, en suivant les maquettes Figma responsives.",
+    "tools": ["React", "Sass", "GitHub", "VSCode"]
+  },
+  {
+    "title": "Application web de notation de livre Mon Vieux Grimoire",
+    "pictures": [
+      "/img/P7/1.png",
+      "/img/P7/2.png",
+      "/img/P7/3.png",
+      "/img/P7/4.png"
+    ],
+    "description": "Développer l'ensemble du back-end de l'application en suivant un document de spécifications techniques de l’API.",
+    "tools": ["NodeJS", "ExpressJS", "MangoDB", "GitHub", "VSCode"]
+  },
+  {
+    "title": "Debug et optimisation du site de la photographe Nina Carducci",
+    "pictures": [
+      "/img/P5/1.png",
+      "/img/P5/2.png",
+      "/img/P5/3.png",
+      "/img/P5/4.png"
+    ],
+    "description": "Correction de bugs, optimisation des images du site, du code et de sa structure, afin d’améliorer le chargement et l’accessibilité du site.",
+    "tools": ["RichSnippet", "LightHouse", "Wave", "GitHub", "VSCode"]
+  },
+  {
+    "title": "Planification du développement du site web Menu Maker by Qwenta",
+    "pictures": [
+      "/img/P4/1.png",
+      "/img/P4/2.png",
+      "/img/P4/3.png",
+      "/img/P4/4.png",
+      "/img/P4/5.png",
+      "/img/P4/6.png"
+    ],
+    "description": "Correction de bugs, optimisation des images du site, du code et de sa structure, afin d’améliorer le chargement et l’accessibilité du site.",
+    "tools": ["Notion", "DailyDev", "Word", "Powerpoint", "Excel"]
+  },
+  {
+    "title": "Site web portfolio de l'architecte d'intérieur Sophie Bluel ",
+    "pictures": [
+      "/img/P3/1.png",
+      "/img/P3/2.png",
+      "/img/P3/3.png",
+      "/img/P3/4.png",
+      "/img/P3/5.png",
+      "/img/P3/6.png"
+    ],
+    "description": "Correction de bugs, optimisation des images du site, du code et de sa structure, afin d’améliorer le chargement et l’accessibilité du site.",
+    "tools": ["Notion", "DailyDev", "Word", "Powerpoint", "Excel"]
   }
 ]

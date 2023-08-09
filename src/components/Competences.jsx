@@ -4,6 +4,13 @@ import Tailwind from "..//img/89711240-4172a200-d989-11ea-8d51-4aaf922fa407.png"
 import ExpressJS from "../img/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo-removebg-preview.png";
 import MangoDB from "../img/ext-553-removebg-preview.png";
 import VSCode from "../img/vscode.png";
+import LightHouse from "../img/Google-Lighthouse-Logo.png";
+import Wave from "../img/wave.png";
+import Notion from "../img/notion.png";
+import DailyDev from "../img/daily-dev-icon-logo-F2FF3407F0-seeklogo.com.png";
+import Word from "../img/word-logo-0.png";
+import Powerpoint from "../img/microsoft-powerpoint-logo-0.png";
+import Excel from "../img/excel-logo-0.png";
 
 const liClassName = "flex flex-col items-center";
 const iconClassName = "h-10 ";
@@ -99,6 +106,18 @@ export default function Competences() {
         <h3 className="text-lg">Outils</h3>
         <ul className="grid grid-cols-3 gap-4 pt-4">
           <li className={`${liClassName}`}>
+            <img
+              src={LightHouse}
+              className={`${iconClassName}`}
+              alt="Lighthouse"
+            />
+            <p className={`${label}`}>LightHouse</p>
+          </li>
+          <li className={`${liClassName}`}>
+            <img src={Wave} className={`${iconClassName}`} alt="Wave" />
+            <p className={`${label}`}>Wave</p>
+          </li>
+          <li className={`${liClassName}`}>
             <FontAwesomeIcon
               className={`${iconClassName}`}
               icon="fa-brands fa-npm"
@@ -123,16 +142,40 @@ export default function Competences() {
             <p className={`${label}`}>git</p>
           </li>
           <li className={`${liClassName}`}>
-            <img src={VSCode} className={`${iconClassName}`} alt="VSCode" />
-            <p className={`${label}`}>VSCode</p>
-          </li>
-          <li className={`${liClassName}`}>
             <FontAwesomeIcon
               className={`${iconClassName}`}
               icon="fa-brands fa-github"
               style={{ color: "#000000" }}
             />
             <p className={`${label}`}>Github</p>
+          </li>
+          <li className={`${liClassName}`}>
+            <img src={VSCode} className={`${iconClassName}`} alt="VSCode" />
+            <p className={`${label}`}>VSCode</p>
+          </li>{" "}
+          <li className={`${liClassName}`}>
+            <img src={Notion} className={`${iconClassName}`} alt="Notion" />
+            <p className={`${label}`}>Notion</p>
+          </li>{" "}
+          <li className={`${liClassName}`}>
+            <img src={DailyDev} className={`${iconClassName}`} alt="DailyDev" />
+            <p className={`${label}`}>DailyDev</p>
+          </li>
+          <li className={`${liClassName}`}>
+            <img src={Word} className={`${iconClassName}`} alt="Word" />
+            <p className={`${label}`}>Word</p>
+          </li>{" "}
+          <li className={`${liClassName}`}>
+            <img
+              src={Powerpoint}
+              className={`${iconClassName}`}
+              alt="Powerpoint"
+            />
+            <p className={`${label}`}>Powerpoint</p>
+          </li>{" "}
+          <li className={`${liClassName}`}>
+            <img src={Excel} className={`${iconClassName}`} alt="Excel" />
+            <p className={`${label}`}>Excel</p>
           </li>
         </ul>
       </div>
