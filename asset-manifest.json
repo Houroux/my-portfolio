@@ -1,26 +1,24 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.e7323708.css",
-    "main.js": "/my-portfolio/static/js/main.5f644a47.js",
+    "main.css": "/my-portfolio/static/css/main.702184d6.css",
+    "main.js": "/my-portfolio/static/js/main.562d53a9.js",
     "static/media/IMG_2473.jpg": "/my-portfolio/static/media/IMG_2473.637f340f6605fe301ee0.jpg",
-    "static/media/microsoft-powerpoint-logo-0.png": "/my-portfolio/static/media/microsoft-powerpoint-logo-0.6a2d001ad8b5d78cf2bb.png",
-    "static/media/excel-logo-0.png": "/my-portfolio/static/media/excel-logo-0.54068a0f20610bf0a3ca.png",
-    "static/media/vscode.png": "/my-portfolio/static/media/vscode.e66400756ccbdbfc0b31.png",
-    "static/media/word-logo-0.png": "/my-portfolio/static/media/word-logo-0.5ccefd0e77664fec2085.png",
-    "static/media/ext-553-removebg-preview.png": "/my-portfolio/static/media/ext-553-removebg-preview.b6cea96d3bfae959e2db.png",
-    "static/media/developpeur-web.webp": "/my-portfolio/static/media/developpeur-web.8036a0b46b95ed9a64ea.webp",
-    "static/media/89711240-4172a200-d989-11ea-8d51-4aaf922fa407.png": "/my-portfolio/static/media/89711240-4172a200-d989-11ea-8d51-4aaf922fa407.5a22367d73d2ba38f396.png",
-    "static/media/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo-removebg-preview.png": "/my-portfolio/static/media/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo-removebg-preview.cc5f456f0a42aa7a9a48.png",
-    "static/media/wave.png": "/my-portfolio/static/media/wave.61a0206593da73ea18e1.png",
-    "static/media/Google-Lighthouse-Logo.png": "/my-portfolio/static/media/Google-Lighthouse-Logo.b652a3098243069a44ba.png",
-    "static/media/daily-dev-icon-logo-F2FF3407F0-seeklogo.com.png": "/my-portfolio/static/media/daily-dev-icon-logo-F2FF3407F0-seeklogo.com.361da0f43f45fa9ddbbf.png",
-    "static/media/notion.png": "/my-portfolio/static/media/notion.7aa264a898951e791ee3.png",
+    "static/media/ext-553-removebg-preview.png": "/my-portfolio/static/media/ext-553-removebg-preview.1e6c5879fba63d4c1dbe.png",
+    "static/media/89711240-4172a200-d989-11ea-8d51-4aaf922fa407.png": "/my-portfolio/static/media/89711240-4172a200-d989-11ea-8d51-4aaf922fa407.e970f29831999d0cc69d.png",
+    "static/media/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo-removebg-preview.png": "/my-portfolio/static/media/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo-removebg-preview.f0272af452634b46c40b.png",
+    "static/media/vscode.png": "/my-portfolio/static/media/vscode.397b962a542726ed252f.png",
+    "static/media/notion.png": "/my-portfolio/static/media/notion.e3f150e39c33bc76d3b7.png",
+    "static/media/microsoft-powerpoint-logo-0.png": "/my-portfolio/static/media/microsoft-powerpoint-logo-0.7656c944b7c34c0ead84.png",
+    "static/media/excel-logo-0.png": "/my-portfolio/static/media/excel-logo-0.ce53c6ba2196b1fd41b8.png",
+    "static/media/wave.png": "/my-portfolio/static/media/wave.944fcbe6517278477521.png",
+    "static/media/Google-Lighthouse-Logo.png": "/my-portfolio/static/media/Google-Lighthouse-Logo.46f34c42c63c68b19b06.png",
+    "static/media/daily-dev-icon-logo-F2FF3407F0-seeklogo.com.png": "/my-portfolio/static/media/daily-dev-icon-logo-F2FF3407F0-seeklogo.com.dd9aab0304d751d9dd48.png",
     "index.html": "/my-portfolio/index.html",
-    "main.e7323708.css.map": "/my-portfolio/static/css/main.e7323708.css.map",
-    "main.5f644a47.js.map": "/my-portfolio/static/js/main.5f644a47.js.map"
+    "main.702184d6.css.map": "/my-portfolio/static/css/main.702184d6.css.map",
+    "main.562d53a9.js.map": "/my-portfolio/static/js/main.562d53a9.js.map"
   },
   "entrypoints": [
-    "static/css/main.e7323708.css",
-    "static/js/main.5f644a47.js"
+    "static/css/main.702184d6.css",
+    "static/js/main.562d53a9.js"
   ]
 }
