@@ -7,8 +7,8 @@ export default function Header() {
     "w-full border-t border-zinc-800 bg-second py-1 text-center";
   return (
     <div className="fixed top-0 z-10 w-screen">
-      <div className="m-auto flex w-full flex-col bg-second ">
-        <div className="my-4 flex h-9 w-full justify-between px-6">
+      <div className="m-auto flex h-16 w-full flex-col bg-second ">
+        <div className="z-20 flex h-16 w-full justify-between bg-second px-6 py-4">
           <h1 className="self-center text-3xl  [text-shadow:_0_0_3px_rgb(255_255_255_/_20%)]">
             Arthur Trovato
           </h1>
@@ -16,16 +16,14 @@ export default function Header() {
             className="relative left-2 h-full w-9"
             onClick={() => setIsOpened(!isOpened)}
           >
-            <FontAwesomeIcon
-              className="h-5/6 pt-1"
-              icon="fa-solid fa-square-caret-down"
-            />
+            <FontAwesomeIcon className="h-5/6 pt-1" icon="fa-solid fa-bars" />
           </button>
         </div>
+
         <nav
           className={`${
-            isOpened ? "flex" : "hidden"
-          } flex flex-col justify-center text-lg transition-all duration-300
+            isOpened ? "transform-none" : "-translate-y-80"
+          } flex flex-col justify-center text-lg transition-all duration-500
           [text-shadow:_0_0_2px_rgb(255_255_255_/_20%)]`}
         >
           <a

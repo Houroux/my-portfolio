@@ -9,13 +9,13 @@ export default function First() {
       <h2 className=" mb-20 w-full cursor-default  bg-second  py-20  text-center text-2xl">
         Développeur Web
       </h2>
-      <a className="mb-4 rounded  bg-third p-4  text-white" href="#">
+      <a className="mb-4 rounded  bg-third p-4  text-white" href="#contact">
         Me contacter
       </a>
 
       <a
         className="rounded  bg-third p-4  text-white"
-        href="https://github.com/Houroux/my-portfolio/blob/master/public/CV_2023-08-03_Arthur_TROVATO.pdf"
+        href="https://houroux.github.io/my-portfolio/CV_2023-08-03_Arthur_TROVATO.pdf"
         target="_blank"
         rel="noopener noreferrer"
       >
