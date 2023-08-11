@@ -4,23 +4,40 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export default function Header() {
   const [isOpened, setIsOpened] = useState(false);
   const navLinkClassName =
-    "w-full border-t border-zinc-800 bg-second py-1 text-center";
+    "w-full border-t border-zinc-800 bg-second py-1 sm:text-xl sm:py-2 text-center";
   return (
-    <div className="fixed top-0 z-10 w-screen">
+    <div className="fixed top-0 z-10 w-screen xl:max-w-screen-2xl">
       <div className="m-auto flex h-16 w-full flex-col bg-second ">
         <div className="z-20 flex h-16 w-full items-center justify-between bg-second px-6 py-4">
-          <h1 className="self-center text-3xl  [text-shadow:_0_0_3px_rgb(255_255_255_/_20%)]">
-            Arthur Trovato
-          </h1>
-          <a href="tel:+33760434390" className="relative left-2 h-6">
-            <FontAwesomeIcon className="h-full" icon="fa-solid fa-phone" />
-          </a>
-          <button
-            className="relative left-2 h-full w-9"
-            onClick={() => setIsOpened(!isOpened)}
+          <a
+            href="#first"
+            className="self-center text-3xl [text-shadow:_0_0_3px_rgb(255_255_255_/_20%)]  sm:text-4xl"
           >
-            <FontAwesomeIcon className="h-5/6 pt-1" icon="fa-solid fa-bars" />
-          </button>
+            Arthur Trovato
+          </a>
+          <div className="flex h-full items-center gap-4 sm:gap-10">
+            <a
+              href="tel:+33760434390"
+              className="relative left-2 flex h-6 items-center justify-center sm:hidden"
+            >
+              <FontAwesomeIcon className="h-full" icon="fa-solid fa-phone" />
+            </a>{" "}
+            <a
+              href="mailto:arthurtrovato@gmail.com"
+              className="relative left-2 hidden h-8 items-center justify-center sm:flex "
+            >
+              <FontAwesomeIcon
+                className="h-full"
+                icon="fa-regular fa-envelope"
+              />
+            </a>
+            <button
+              className="relative left-2 flex h-7 items-center justify-center sm:h-8"
+              onClick={() => setIsOpened(!isOpened)}
+            >
+              <FontAwesomeIcon className="h-full" icon="fa-solid fa-bars" />
+            </button>
+          </div>
         </div>
 
         <nav
@@ -32,37 +49,38 @@ export default function Header() {
           <a
             onClick={() => setIsOpened(!isOpened)}
             className={`${navLinkClassName}`}
-            href="#first"
+            href="#presentation"
           >
             Présentation
           </a>
           <a
             onClick={() => setIsOpened(!isOpened)}
             className={`${navLinkClassName}`}
-            href="#"
+            href="#competences"
           >
             Compétences
           </a>
           <a
             onClick={() => setIsOpened(!isOpened)}
             className={`${navLinkClassName}`}
-            href="#"
+            href="#portfolio"
           >
             Portfolio
           </a>
+
           <a
             onClick={() => setIsOpened(!isOpened)}
             className={`${navLinkClassName}`}
-            href="#"
+            href="#contact"
           >
-            A propos
+            Contact
           </a>
           <a
             onClick={() => setIsOpened(!isOpened)}
             className={`${navLinkClassName}`}
-            href="#"
+            href="#localisation"
           >
-            Contact
+            Ma localisation
           </a>
           <a
             onClick={() => setIsOpened(!isOpened)}

@@ -22,9 +22,9 @@ export default function Portfolio() {
   }, []);
   console.log(projets);
   return (
-    <div className="flex flex-col items-center bg-second py-12">
-      <h2 className="text-2xl">Portfolio</h2>
-      <div className="cardsContainer flex w-full flex-col p-8">
+    <div id="portfolio" className="flex flex-col items-center bg-second py-12">
+      <h2 className="text-4xl">Portfolio</h2>
+      <div className="cardsContainer sm: flex w-full flex-col flex-wrap p-8 sm:flex-row sm:justify-center sm:px-0">
         {projets.map((project) => (
           <Project
             key={project.title}

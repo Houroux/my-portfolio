@@ -21,7 +21,7 @@ export default function Projet({
   tools,
   github,
 }) {
-  const iconClassName = "h-10 ";
+  const iconClassName = "h-12 ";
   const liClassName = "flex flex-col items-center";
   const AppLogo = {
     React: (
@@ -79,7 +79,7 @@ export default function Projet({
     Excel: <img src={Excel} className={`${iconClassName}`} alt="Excel" />,
   };
   return (
-    <div className="my-4 flex w-full flex-col items-center rounded bg-projectbg p-4">
+    <div className="my-4 flex w-full flex-col items-center rounded bg-projectbg p-4 sm:mx-4 sm:w-5/12 ">
       <Carousel infiniteLoop={true} className="w-full">
         {pictures.map((picture) => (
           <div key={picture}>
@@ -87,13 +87,13 @@ export default function Projet({
           </div>
         ))}
       </Carousel>
-      <h4 key={title} className="mb-4 text-center text-xl">
+      <h4 key={title} className="mb-4 text-center text-xl sm:text-2xl">
         {title}
       </h4>
-      <p key={description} className="mb-4 ">
+      <p key={description} className="mb-4 sm:text-lg">
         {description}
       </p>
-      <h4 className="mb-4 mt-4 text-lg">Outils utilisés</h4>
+      <h4 className="mb-4 mt-4 text-lg sm:text-xl">Outils utilisés</h4>
       <ul
         key={Math.random}
         className="tools flex flex-wrap justify-center gap-4"
@@ -101,7 +101,7 @@ export default function Projet({
         {tools.map((tool) => (
           <li key={Math.random} className={`${liClassName}`}>
             {AppLogo[tool]}
-            <p>{tool}</p>
+            <p className="sm:text-lg">{tool}</p>
           </li>
         ))}
       </ul>

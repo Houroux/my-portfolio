@@ -13,15 +13,18 @@ import Powerpoint from "../img/microsoft-powerpoint-logo-0.png";
 import Excel from "../img/excel-logo-0.png";
 
 const liClassName = "flex flex-col items-center";
-const iconClassName = "h-10 ";
-const label = "";
+const iconClassName = "h-10 sm:h-12 ";
+const label = "sm:text-xl";
 
 export default function Competences() {
   return (
-    <div className="flex flex-col items-center bg-inherit py-12">
-      <h2 className=" text-2xl">Compétences</h2>
+    <div
+      id="competences"
+      className="flex flex-col items-center bg-inherit py-12"
+    >
+      <h2 className=" text-2xl sm:text-4xl">Compétences</h2>
       <div className="flex flex-col items-center pt-8">
-        <h3 className="text-lg">Front-end</h3>
+        <h3 className="text-lg sm:text-3xl">Front-end</h3>
         <ul className="grid grid-cols-3 gap-4 pt-4">
           <li className={`${liClassName}`}>
             <FontAwesomeIcon
@@ -69,8 +72,8 @@ export default function Competences() {
           </li>
         </ul>
       </div>
-      <div className="flex flex-col items-center pt-8">
-        <h3 className="text-lg">Back-end</h3>
+      <div className="flex flex-col items-center pt-8 sm:my-12">
+        <h3 className="text-lg sm:text-3xl">Back-end</h3>
         <ul className="grid grid-cols-2 gap-4 pt-4">
           <li className={`${liClassName}`}>
             <FontAwesomeIcon
@@ -103,7 +106,7 @@ export default function Competences() {
         </ul>
       </div>
       <div className="flex flex-col items-center pt-8">
-        <h3 className="text-lg">Outils</h3>
+        <h3 className="text-lg sm:text-3xl">Outils</h3>
         <ul className="grid grid-cols-3 gap-4 pt-4">
           <li className={`${liClassName}`}>
             <img

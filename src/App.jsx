@@ -15,7 +15,7 @@ library.add(fab, fas, far);
 
 function App() {
   return (
-    <div>
+    <div className="m-auto max-w-screen-2xl">
       <Header></Header>
       <First></First>
       <Presentation></Presentation>
