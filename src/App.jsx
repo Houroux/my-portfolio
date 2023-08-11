@@ -4,6 +4,7 @@ import Presentation from "./components/Presentation";
 import Competences from "./components/Competences";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
+import Localisation from "./components/Localisation";
 
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fas } from "@fortawesome/free-solid-svg-icons";
@@ -21,6 +22,7 @@ function App() {
       <Competences></Competences>
       <Portfolio></Portfolio>
       <Contact></Contact>
+      <Localisation></Localisation>
     </div>
   );
 }

@@ -8,7 +8,8 @@
       "/img/P6/brave_i0m9g5FWq1.png"
     ],
     "description": "Développer l’ensemble du front-end de l'application, les composants React, les routes React Router, en suivant les maquettes Figma responsives.",
-    "tools": ["React", "Sass", "GitHub", "VSCode"]
+    "tools": ["React", "Sass", "GitHub", "VSCode"],
+    "github": "https://github.com/Houroux/P6-OC-Kasa/tree/master/kasa"
   },
   {
     "title": "Application web de notation de livre Mon Vieux Grimoire",
@@ -19,7 +20,8 @@
       "/img/P7/4.png"
     ],
     "description": "Développer l'ensemble du back-end de l'application en suivant un document de spécifications techniques de l’API.",
-    "tools": ["NodeJS", "ExpressJS", "MangoDB", "GitHub", "VSCode"]
+    "tools": ["NodeJS", "ExpressJS", "MangoDB", "GitHub", "VSCode"],
+    "github": "https://github.com/Houroux/Back-end-P7-Dev-Web-livres"
   },
   {
     "title": "Debug et optimisation du site de la photographe Nina Carducci",
@@ -30,7 +32,8 @@
       "/img/P5/4.png"
     ],
     "description": "Correction de bugs, optimisation des images du site, du code et de sa structure, afin d’améliorer le chargement et l’accessibilité du site.",
-    "tools": ["RichSnippet", "LightHouse", "Wave", "GitHub", "VSCode"]
+    "tools": ["RichSnippet", "LightHouse", "Wave", "GitHub", "VSCode"],
+    "github": "https://github.com/Houroux/nina-carducci.github.io"
   },
   {
     "title": "Planification du développement du site web Menu Maker by Qwenta",
@@ -43,7 +46,8 @@
       "/img/P4/6.png"
     ],
     "description": "Correction de bugs, optimisation des images du site, du code et de sa structure, afin d’améliorer le chargement et l’accessibilité du site.",
-    "tools": ["Notion", "DailyDev", "Word", "Powerpoint", "Excel"]
+    "tools": ["Notion", "DailyDev", "Word", "Powerpoint", "Excel"],
+    "github": ""
   },
   {
     "title": "Site web portfolio de l'architecte d'intérieur Sophie Bluel ",
@@ -56,6 +60,7 @@
       "/img/P3/6.png"
     ],
     "description": "Correction de bugs, optimisation des images du site, du code et de sa structure, afin d’améliorer le chargement et l’accessibilité du site.",
-    "tools": ["Notion", "DailyDev", "Word", "Powerpoint", "Excel"]
+    "tools": ["Notion", "DailyDev", "Word", "Powerpoint", "Excel"],
+    "github": "https://github.com/Houroux/Portfolio-architecte-sophie-bluel"
   }
 ]

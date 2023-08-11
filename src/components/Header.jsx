@@ -8,10 +8,13 @@ export default function Header() {
   return (
     <div className="fixed top-0 z-10 w-screen">
       <div className="m-auto flex h-16 w-full flex-col bg-second ">
-        <div className="z-20 flex h-16 w-full justify-between bg-second px-6 py-4">
+        <div className="z-20 flex h-16 w-full items-center justify-between bg-second px-6 py-4">
           <h1 className="self-center text-3xl  [text-shadow:_0_0_3px_rgb(255_255_255_/_20%)]">
             Arthur Trovato
           </h1>
+          <a href="tel:+33760434390" className="relative left-2 h-6">
+            <FontAwesomeIcon className="h-full" icon="fa-solid fa-phone" />
+          </a>
           <button
             className="relative left-2 h-full w-9"
             onClick={() => setIsOpened(!isOpened)}

@@ -3,14 +3,14 @@ import pdp from "../img/IMG_2473.jpg";
 
 export default function Presentation() {
   return (
-    <div className="mt-20 flex flex-col items-center gap-4 bg-second px-8 py-12 text-justify text-base">
+    <div className="mt-20 flex flex-col items-center gap-8 bg-second px-8 py-12  text-base">
       <img
         src={pdp}
         className=" h-36 w-36 rounded-full object-cover "
         alt="Photo d'Arthur"
       />
-      <p>Arthur Trovato</p>
-      <p>23 ans</p>
+      <p className="text-lg">Arthur Trovato</p>
+      <p className="text-lg">23 ans</p>
       <p>
         Après un BAC+4 dans le management industriel, je me suis réorienté dans
         le développement web.

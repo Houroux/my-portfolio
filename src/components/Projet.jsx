@@ -14,7 +14,13 @@ import Word from "../img/word-logo-0.png";
 import Powerpoint from "../img/microsoft-powerpoint-logo-0.png";
 import Excel from "../img/excel-logo-0.png";
 
-export default function Projet({ title, pictures, description, tools }) {
+export default function Projet({
+  title,
+  pictures,
+  description,
+  tools,
+  github,
+}) {
   const iconClassName = "h-10 ";
   const liClassName = "flex flex-col items-center";
   const AppLogo = {
@@ -84,7 +90,7 @@ export default function Projet({ title, pictures, description, tools }) {
       <h4 key={title} className="mb-4 text-center text-xl">
         {title}
       </h4>
-      <p key={description} className="mb-4 text-justify">
+      <p key={description} className="mb-4 ">
         {description}
       </p>
       <h4 className="mb-4 mt-4 text-lg">Outils utilisés</h4>
@@ -99,6 +105,17 @@ export default function Projet({ title, pictures, description, tools }) {
           </li>
         ))}
       </ul>
+      {github && (
+        <a
+          className="mt-4 flex items-center gap-1 rounded bg-third px-3 py-1 text-white"
+          href={github}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FontAwesomeIcon icon="fa-solid fa-link" />
+          <p>Github</p>
+        </a>
+      )}
     </div>
   );
 }
