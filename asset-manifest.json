@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.702184d6.css",
-    "main.js": "/my-portfolio/static/js/main.562d53a9.js",
+    "main.css": "/my-portfolio/static/css/main.ad53e637.css",
+    "main.js": "/my-portfolio/static/js/main.c06aa731.js",
     "static/media/IMG_2473.jpg": "/my-portfolio/static/media/IMG_2473.637f340f6605fe301ee0.jpg",
+    "static/media/brave_PMr33Wy1UI.png": "/my-portfolio/static/media/brave_PMr33Wy1UI.be914260ec4754efafef.png",
     "static/media/ext-553-removebg-preview.png": "/my-portfolio/static/media/ext-553-removebg-preview.1e6c5879fba63d4c1dbe.png",
     "static/media/89711240-4172a200-d989-11ea-8d51-4aaf922fa407.png": "/my-portfolio/static/media/89711240-4172a200-d989-11ea-8d51-4aaf922fa407.e970f29831999d0cc69d.png",
     "static/media/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo-removebg-preview.png": "/my-portfolio/static/media/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo-removebg-preview.f0272af452634b46c40b.png",
@@ -12,13 +13,13 @@
     "static/media/excel-logo-0.png": "/my-portfolio/static/media/excel-logo-0.ce53c6ba2196b1fd41b8.png",
     "static/media/wave.png": "/my-portfolio/static/media/wave.944fcbe6517278477521.png",
     "static/media/Google-Lighthouse-Logo.png": "/my-portfolio/static/media/Google-Lighthouse-Logo.46f34c42c63c68b19b06.png",
-    "static/media/daily-dev-icon-logo-F2FF3407F0-seeklogo.com.png": "/my-portfolio/static/media/daily-dev-icon-logo-F2FF3407F0-seeklogo.com.dd9aab0304d751d9dd48.png",
+    "static/media/daily-dev-icon-logo-F2FF3407F0-seeklogo.com.png": "/my-portfolio/static/media/daily-dev-icon-logo-F2FF3407F0-seeklogo.com.f7959d1d3f78e31842f6.png",
     "index.html": "/my-portfolio/index.html",
-    "main.702184d6.css.map": "/my-portfolio/static/css/main.702184d6.css.map",
-    "main.562d53a9.js.map": "/my-portfolio/static/js/main.562d53a9.js.map"
+    "main.ad53e637.css.map": "/my-portfolio/static/css/main.ad53e637.css.map",
+    "main.c06aa731.js.map": "/my-portfolio/static/js/main.c06aa731.js.map"
   },
   "entrypoints": [
-    "static/css/main.702184d6.css",
-    "static/js/main.562d53a9.js"
+    "static/css/main.ad53e637.css",
+    "static/js/main.c06aa731.js"
   ]
 }
