@@ -7,9 +7,10 @@
       "/img/P6/brave_BACQ2aFdMU.png",
       "/img/P6/brave_i0m9g5FWq1.png"
     ],
-    "description": "Développer l’ensemble du front-end de l'application, les composants React, les routes React Router, en suivant les maquettes Figma responsives.",
+    "description": "Développement de l’ensemble du front-end de l'application, les composants React, les routes React Router, en suivant les maquettes Figma responsives.",
     "tools": ["React", "Sass", "GitHub", "VSCode"],
-    "github": "https://github.com/Houroux/P6-OC-Kasa/tree/master/kasa"
+    "github": "https://github.com/Houroux/P6-OC-Kasa/tree/master/kasa",
+    "problematiques": ""
   },
   {
     "title": "Application web de notation de livre Mon Vieux Grimoire",
@@ -19,9 +20,10 @@
       "/img/P7/3.png",
       "/img/P7/4.png"
     ],
-    "description": "Développer l'ensemble du back-end de l'application en suivant un document de spécifications techniques de l’API.",
+    "description": "Développement de l'ensemble du back-end de l'application en suivant un document de spécifications techniques de l’API.",
     "tools": ["NodeJS", "ExpressJS", "MangoDB", "GitHub", "VSCode"],
-    "github": "https://github.com/Houroux/Back-end-P7-Dev-Web-livres"
+    "github": "https://github.com/Houroux/Back-end-P7-Dev-Web-livres",
+    "problematiques": "Création de "
   },
   {
     "title": "Debug et optimisation du site de la photographe Nina Carducci",
@@ -45,7 +47,7 @@
       "/img/P4/5.png",
       "/img/P4/6.png"
     ],
-    "description": "Correction de bugs, optimisation des images du site, du code et de sa structure, afin d’améliorer le chargement et l’accessibilité du site.",
+    "description": "Travail de veille, rédaction des spécifications téchniques et planification du projet avec Kanban et Gantt.",
     "tools": ["Notion", "DailyDev", "Word", "Powerpoint", "Excel"],
     "github": ""
   },
@@ -59,8 +61,8 @@
       "/img/P3/5.png",
       "/img/P3/6.png"
     ],
-    "description": "Correction de bugs, optimisation des images du site, du code et de sa structure, afin d’améliorer le chargement et l’accessibilité du site.",
-    "tools": ["Notion", "DailyDev", "Word", "Powerpoint", "Excel"],
+    "description": "Développement d'un site vitrine avec page de connexion pour l'administateur et une modale d'upload de photos.",
+    "tools": ["Html", "Css", "Javascript"],
     "github": "https://github.com/Houroux/Portfolio-architecte-sophie-bluel"
   }
 ]
