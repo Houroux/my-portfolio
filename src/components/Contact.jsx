@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Contact() {
   return (
-    <div id="contact" className="flex  flex-col items-center gap-4 py-12 ">
+    <div id="contact" className="flex flex-col items-center gap-4 py-12 ">
       <h2 className="mb-12 text-2xl sm:text-4xl">Contact</h2>
       <a
         href="mailto:arthurtrovato@gmail.com"

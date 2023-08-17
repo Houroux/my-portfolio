@@ -4,10 +4,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export default function Header() {
   const [isOpened, setIsOpened] = useState(false);
   const navLinkClassName =
-    "w-full border-t border-zinc-800 bg-second py-1 sm:text-xl sm:py-2 text-center";
+    "w-full pr-8 border border-white bg-second text-right py-1 sm:text-xl sm:py-2 ";
   return (
-    <div className="fixed top-0 z-10 w-screen xl:max-w-screen-2xl">
-      <div className="m-auto flex h-16 w-full flex-col bg-second ">
+    <div className="fixed top-0 z-10 w-screen bg-second xl:border-b xl:border-black">
+      <div className="m-auto flex h-16 w-full flex-col sm:items-end xl:max-w-screen-xl ">
         <div className="z-20 flex h-16 w-full items-center justify-between bg-second px-6 py-4">
           <a
             href="#first"
@@ -43,12 +43,11 @@ export default function Header() {
         <nav
           className={`${
             isOpened ? "transform-none" : "-translate-y-80"
-          } flex flex-col justify-center text-lg transition-all duration-500
-          [text-shadow:_0_0_2px_rgb(255_255_255_/_20%)]`}
+          } flex w-full flex-col justify-center border border-white text-lg transition-all duration-500 [text-shadow:_0_0_2px_rgb(255_255_255_/_20%)]`}
         >
           <a
             onClick={() => setIsOpened(!isOpened)}
-            className={`${navLinkClassName}`}
+            className={`${navLinkClassName} border-t-0`}
             href="#presentation"
           >
             Présentation
@@ -84,8 +83,8 @@ export default function Header() {
           </a>
           <a
             onClick={() => setIsOpened(!isOpened)}
-            className={`${navLinkClassName} border-b`}
-            href="https://github.com/Houroux/my-portfolio/blob/master/public/CV_2023-08-03_Arthur_TROVATO.pdf"
+            className={`${navLinkClassName}`}
+            href="https://houroux.github.io/my-portfolio/CV_2023-08-03_Arthur_TROVATO.pdf"
             target="_blank"
             rel="noopener noreferrer"
           >

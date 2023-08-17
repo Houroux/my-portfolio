@@ -1,3 +1,4 @@
+import React from "react";
 import Header from "./components/Header";
 import First from "./components/First";
 import Presentation from "./components/Presentation";
@@ -15,7 +16,7 @@ library.add(fab, fas, far);
 
 function App() {
   return (
-    <div className="m-auto max-w-screen-2xl">
+    <div className="m-auto">
       <Header></Header>
       <First></First>
       <Presentation></Presentation>

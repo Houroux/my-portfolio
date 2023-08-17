@@ -4,7 +4,7 @@ export default function First() {
   return (
     <div
       id="first"
-      className="flex flex-col items-center justify-center pt-16 "
+      className="flex flex-col items-center justify-center pt-16 xl:pt-4 "
     >
       <h2 className=" mb-20 w-full cursor-default bg-second py-20  text-center  text-2xl  sm:pt-40 sm:text-3xl">
         Développeur Web
