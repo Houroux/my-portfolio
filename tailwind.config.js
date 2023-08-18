@@ -8,6 +8,7 @@ module.exports = {
         second: "#FFF4E8",
         third: "#8BC7B1",
         projectbg: "#DBD2C8",
+        header: "#FFE3D0",
       },
     },
   },

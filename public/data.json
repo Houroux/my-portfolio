@@ -10,7 +10,7 @@
     "description": "Développement de l’ensemble du front-end de l'application, les composants React, les routes React Router, en suivant les maquettes Figma responsives.",
     "tools": ["React", "Sass", "GitHub", "VSCode"],
     "github": "https://github.com/Houroux/P6-OC-Kasa/tree/master/kasa",
-    "problematiques": ""
+    "problematiques": "Développement du style modifié de CSS à Sass pour convenir aux nouveaux besoins du projet"
   },
   {
     "title": "Application web de notation de livre Mon Vieux Grimoire",
@@ -23,7 +23,7 @@
     "description": "Développement de l'ensemble du back-end de l'application en suivant un document de spécifications techniques de l’API.",
     "tools": ["NodeJS", "ExpressJS", "MangoDB", "GitHub", "VSCode"],
     "github": "https://github.com/Houroux/Back-end-P7-Dev-Web-livres",
-    "problematiques": "Création de "
+    "problematiques": "Création d'un système de notation de livre en m'appuyant sur la documentation de MangoDB."
   },
   {
     "title": "Debug et optimisation du site de la photographe Nina Carducci",

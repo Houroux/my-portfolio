@@ -100,9 +100,53 @@ export default function Projet({
     ),
     Excel: <img src={Excel} className={`${iconClassName}`} alt="Excel" />,
   };
+  const arrowStyles = {
+    position: "absolute",
+    zIndex: 2,
+    top: "calc(50% - 15px)",
+    width: 30,
+    height: 30,
+    cursor: "pointer",
+  };
   return (
     <div className="my-4 flex w-full flex-col items-center justify-between rounded bg-projectbg p-4 sm:mx-4 sm:w-5/12 ">
-      <Carousel infiniteLoop={true} className="w-full">
+      <Carousel
+        renderArrowPrev={(onClickHandler, hasPrev, label) =>
+          hasPrev && (
+            <button
+              type="button"
+              onClick={onClickHandler}
+              title={label}
+              style={{ ...arrowStyles, left: 5 }}
+            >
+              <FontAwesomeIcon
+                className="h-full drop-shadow-[0_0_2px_rgba(0,0,0,0.3)]"
+                icon="fa-regular fa-square-caret-left"
+                style={{ color: "#8BC7B1" }}
+              />
+            </button>
+          )
+        }
+        renderArrowNext={(onClickHandler, hasNext, label) =>
+          hasNext && (
+            <button
+              type="button"
+              onClick={onClickHandler}
+              title={label}
+              style={{ ...arrowStyles, right: 5 }}
+            >
+              <FontAwesomeIcon
+                className="h-full drop-shadow-[0_0_2px_rgba(0,0,0,0.3)]"
+                icon="fa-regular fa-square-caret-right"
+                style={{ color: "#8BC7B1" }}
+              />
+            </button>
+          )
+        }
+        emulateTouch={true}
+        infiniteLoop={true}
+        className="w-full"
+      >
         {pictures.map((picture) => (
           <div key={picture}>
             <img src={process.env.PUBLIC_URL + picture} />
@@ -117,8 +161,10 @@ export default function Projet({
       </p>
       {problematiques && (
         <div className="">
-          <h4>Problématiques rencontrées</h4>
-          <p>{problematiques}</p>
+          <h4 className="mb-4 mt-4 text-center text-lg sm:text-xl">
+            Problématiques rencontrées
+          </h4>
+          <p className="mb-4 sm:text-lg">{problematiques}</p>
         </div>
       )}
 
@@ -126,10 +172,7 @@ export default function Projet({
         <h4 className="mb-4 mt-4 text-center text-lg sm:text-xl">
           Outils utilisés
         </h4>
-        <ul
-          key={Math.random}
-          className="tools flex flex-wrap justify-center gap-4"
-        >
+        <ul key={Math.random} className="flex flex-wrap justify-center gap-4">
           {tools.map((tool) => (
             <li key={Math.random} className={`${liClassName}`}>
               {AppLogo[tool]}

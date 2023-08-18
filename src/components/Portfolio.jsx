@@ -33,7 +33,7 @@ export default function Portfolio() {
             description={project.description}
             tools={project.tools}
             github={project.github}
-            problematiques={projets.problematiques}
+            problematiques={project.problematiques}
           ></Project>
         ))}
       </div>

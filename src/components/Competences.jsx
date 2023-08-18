@@ -13,7 +13,7 @@ import Powerpoint from "../img/microsoft-powerpoint-logo-0.png";
 import Excel from "../img/excel-logo-0.png";
 
 const liClassName = "flex flex-col items-center";
-const iconClassName = "h-10 sm:h-12 drop-shadow-sm";
+const iconClassName = "h-10 sm:h-12 drop-shadow";
 const label = "sm:text-xl";
 
 export default function Competences() {

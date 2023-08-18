@@ -5,7 +5,7 @@ export default function Localisation() {
   return (
     <div
       id="localisation"
-      className="flex flex-col items-center gap-4 bg-second px-8 py-16"
+      className="flex flex-col items-center gap-4 bg-second px-8 py-16 pb-24"
     >
       <h2 className="mb-8 text-2xl sm:text-4xl">Ma localisation</h2>
       <p className="text-xl sm:text-2xl">Metz</p>
