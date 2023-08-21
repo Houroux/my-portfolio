@@ -21,9 +21,9 @@
       "/img/P7/4.png"
     ],
     "description": "Développement de l'ensemble du back-end de l'application en suivant un document de spécifications techniques de l’API.",
-    "tools": ["NodeJS", "ExpressJS", "MangoDB", "GitHub", "VSCode"],
+    "tools": ["NodeJS", "ExpressJS", "MongoDB", "GitHub", "VSCode"],
     "github": "https://github.com/Houroux/Back-end-P7-Dev-Web-livres",
-    "problematiques": "Création d'un système de notation de livre en m'appuyant sur la documentation de MangoDB."
+    "problematiques": "Création d'un système de notation de livre en m'appuyant sur la documentation de MongoDB."
   },
   {
     "title": "Debug et optimisation du site de la photographe Nina Carducci",

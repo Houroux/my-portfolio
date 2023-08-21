@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.df9f62a1.css",
-    "main.js": "/my-portfolio/static/js/main.2f07e4b8.js",
+    "main.css": "/my-portfolio/static/css/main.a50a76fd.css",
+    "main.js": "/my-portfolio/static/js/main.74abc90a.js",
     "static/media/IMG_2473.jpg": "/my-portfolio/static/media/IMG_2473.637f340f6605fe301ee0.jpg",
     "static/media/brave_PMr33Wy1UI.png": "/my-portfolio/static/media/brave_PMr33Wy1UI.be914260ec4754efafef.png",
     "static/media/ext-553-removebg-preview.png": "/my-portfolio/static/media/ext-553-removebg-preview.1e6c5879fba63d4c1dbe.png",
@@ -15,11 +15,11 @@
     "static/media/Google-Lighthouse-Logo.png": "/my-portfolio/static/media/Google-Lighthouse-Logo.46f34c42c63c68b19b06.png",
     "static/media/daily-dev-icon-logo-F2FF3407F0-seeklogo.com.png": "/my-portfolio/static/media/daily-dev-icon-logo-F2FF3407F0-seeklogo.com.853d41d97d5261e0f220.png",
     "index.html": "/my-portfolio/index.html",
-    "main.df9f62a1.css.map": "/my-portfolio/static/css/main.df9f62a1.css.map",
-    "main.2f07e4b8.js.map": "/my-portfolio/static/js/main.2f07e4b8.js.map"
+    "main.a50a76fd.css.map": "/my-portfolio/static/css/main.a50a76fd.css.map",
+    "main.74abc90a.js.map": "/my-portfolio/static/js/main.74abc90a.js.map"
   },
   "entrypoints": [
-    "static/css/main.df9f62a1.css",
-    "static/js/main.2f07e4b8.js"
+    "static/css/main.a50a76fd.css",
+    "static/js/main.74abc90a.js"
   ]
 }
