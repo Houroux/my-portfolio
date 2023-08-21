@@ -21,7 +21,7 @@ export default function Presentation() {
           <br />
           Avec Openclassrooms, j'ai pu travailler sur des projets divers et
           gagner en compétences sur toutes les phases de développement d'un
-          projet.
+          projet, de la conception à la mise en production.
         </p>
       </div>
     </div>
