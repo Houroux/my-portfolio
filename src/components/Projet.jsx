@@ -4,7 +4,7 @@ import { Carousel } from "react-responsive-carousel";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Tailwind from "..//img/89711240-4172a200-d989-11ea-8d51-4aaf922fa407.png";
 import ExpressJS from "../img/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo-removebg-preview.png";
-import MangoDB from "../img/ext-553-removebg-preview.png";
+import MongoDB from "../img/ext-553-removebg-preview.png";
 import VSCode from "../img/vscode.png";
 import LightHouse from "../img/Google-Lighthouse-Logo.png";
 import Wave from "../img/wave.png";
@@ -78,7 +78,7 @@ export default function Projet({
     ExpressJS: (
       <img src={ExpressJS} className={`${iconClassName}`} alt="ExpressJS" />
     ),
-    MangoDB: <img src={MangoDB} className={`${iconClassName}`} alt="MangoDB" />,
+    MongoDB: <img src={MongoDB} className={`${iconClassName}`} alt="MongoDB" />,
     RichSnippet: (
       <FontAwesomeIcon
         className={`${iconClassName}`}

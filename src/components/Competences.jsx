@@ -2,7 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Tailwind from "..//img/89711240-4172a200-d989-11ea-8d51-4aaf922fa407.png";
 import ExpressJS from "../img/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo-removebg-preview.png";
-import MangoDB from "../img/ext-553-removebg-preview.png";
+import MongoDB from "../img/ext-553-removebg-preview.png";
 import VSCode from "../img/vscode.png";
 import LightHouse from "../img/Google-Lighthouse-Logo.png";
 import Wave from "../img/wave.png";
@@ -107,8 +107,8 @@ export default function Competences() {
               <p className={`${label}`}>ExpressJS</p>
             </li>
             <li className={`${liClassName}`}>
-              <img src={MangoDB} className={`${iconClassName}`} alt="MangoDB" />
-              <p className={`${label}`}>MangoDB</p>
+              <img src={MongoDB} className={`${iconClassName}`} alt="MongoDB" />
+              <p className={`${label}`}>MongoDB</p>
             </li>
           </ul>
         </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "./components/Header";
-import First from "./components/First";
+import Buttons from "./components/Buttons";
 import Presentation from "./components/Presentation";
 import Competences from "./components/Competences";
 import Portfolio from "./components/Portfolio";
@@ -18,8 +18,9 @@ function App() {
   return (
     <div className="m-auto">
       <Header></Header>
-      <First></First>
+
       <Presentation></Presentation>
+      <Buttons></Buttons>
       <Competences></Competences>
       <Portfolio></Portfolio>
       <Contact></Contact>

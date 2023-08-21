@@ -4,16 +4,16 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export default function Header() {
   const [isOpened, setIsOpened] = useState(false);
   const navLinkClassName =
-    "w-full pr-8 border border-white bg-header text-right py-1 sm:text-xl sm:py-2 ";
+    "w-full pr-8 border border-white bg-second text-right py-1 sm:text-xl sm:py-2 ";
   return (
-    <div className="fixed top-0 z-10 w-screen bg-header xl:border-b xl:border-black">
+    <div className="fixed top-0 z-10 w-screen bg-second xl:border-b xl:border-black">
       <div className="m-auto flex h-16 w-full flex-col sm:items-end xl:max-w-screen-xl ">
-        <div className="z-20 flex h-16 w-full items-center justify-between bg-header px-6 py-4">
+        <div className="z-20 flex h-16 w-full items-center justify-between bg-second px-6 py-4">
           <a
             href="#first"
             className="self-center text-3xl [text-shadow:_0_0_3px_rgb(255_255_255_/_20%)]  sm:text-4xl"
           >
-            Arthur Trovato
+            Arthur TROVATO
           </a>
           <div className="flex h-full items-center gap-4 sm:gap-10">
             <a
