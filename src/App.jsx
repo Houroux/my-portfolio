@@ -18,7 +18,6 @@ function App() {
   return (
     <div className="m-auto">
       <Header></Header>
-
       <Presentation></Presentation>
       <Buttons></Buttons>
       <Competences></Competences>

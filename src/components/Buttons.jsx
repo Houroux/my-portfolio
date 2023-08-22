@@ -6,9 +6,6 @@ export default function First() {
       id="first"
       className="flex flex-col items-center justify-center bg-second py-16 "
     >
-      {/* <h2 className=" mb-20 w-full cursor-default bg-second py-20  text-center  text-2xl  sm:pt-40 sm:text-3xl">
-        Développeur Web
-      </h2> */}
       <a
         className="mb-4 rounded bg-third p-4 text-white sm:mb-8 sm:p-8 sm:text-xl"
         href="#contact"
