@@ -10,7 +10,7 @@ export default function Header() {
       <div className="m-auto flex h-16 w-full flex-col sm:items-end xl:max-w-screen-xl ">
         <div className="z-20 flex h-16 w-full items-center justify-between bg-second px-6 py-4">
           <a
-            href="#first"
+            href="#presentation"
             className="self-center text-3xl [text-shadow:_0_0_3px_rgb(255_255_255_/_20%)]  sm:text-4xl"
           >
             Arthur TROVATO
