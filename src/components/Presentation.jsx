@@ -1,5 +1,5 @@
 import React from "react";
-import pdp from "../img/IMG_2473.jpg";
+import pdp from "../img/IMG_2473.png";
 
 export default function Presentation() {
   return (
