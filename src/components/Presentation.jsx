@@ -16,12 +16,14 @@ export default function Presentation() {
         <p className="">Arthur TROVATO</p>
         <p className="">23 ans</p>
         <p className="text-base sm:text-lg">
-          Après un BAC+4 dans le management industriel, je me suis réorienté
-          dans le développement web.
+          Je suis un développeur web passionné et polyvalent, fort d'une solide
+          formation en développement web et d'une expérience en gestion de
+          projet industriel.
           <br />
-          Avec Openclassrooms, j'ai pu travailler sur des projets divers et
-          gagner en compétences sur toutes les phases de développement d'un
-          projet, de la conception à la mise en production.
+          J'apporte des compétences front-end et back-end en JavaScript,
+          ReactJS, NodeJS et plus encore. Mon désir d'apprendre et de contribuer
+          activement à des projets passionnants fait de moi un atout pour votre
+          équipe.
         </p>
       </div>
     </div>
