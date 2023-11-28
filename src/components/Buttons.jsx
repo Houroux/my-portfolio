@@ -22,7 +22,7 @@ export default function First() {
       </a>
       <a
         className="rounded  bg-third p-4 text-white sm:p-8  sm:text-xl"
-        href="https://houroux.github.io/my-portfolio/CV_2023-08-03_Arthur_TROVATO.pdf"
+        href="https://houroux.github.io/my-portfolio/CV_Arthur_TROVATO_3WA.pdf"
         target="_blank"
         rel="noopener noreferrer"
       >

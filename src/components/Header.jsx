@@ -84,7 +84,7 @@ export default function Header() {
           <a
             onClick={() => setIsOpened(!isOpened)}
             className={`${navLinkClassName}`}
-            href="https://houroux.github.io/my-portfolio/CV_2023-08-03_Arthur_TROVATO.pdf"
+            href="https://houroux.github.io/my-portfolio/CV_Arthur_TROVATO_3WA.pdf"
             target="_blank"
             rel="noopener noreferrer"
           >
