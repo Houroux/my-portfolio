@@ -9,7 +9,7 @@
     ],
     "description": "Développement de l’ensemble du front-end de l'application, les composants React, les routes React Router, en suivant les maquettes Figma responsives.",
     "tools": ["React", "Sass", "GitHub", "VSCode"],
-    "github": "https://github.com/Houroux/P6-OC-Kasa/tree/master/kasa",
+    "github": "https://github.com/arthurtrovato/P6-OC-Kasa/tree/master/kasa",
     "problematiques": "Développement du style modifié de CSS à Sass pour convenir aux nouveaux besoins du projet"
   },
   {
@@ -22,7 +22,7 @@
     ],
     "description": "Développement de l'ensemble du back-end de l'application en suivant un document de spécifications techniques de l’API.",
     "tools": ["NodeJS", "ExpressJS", "MongoDB", "GitHub", "VSCode"],
-    "github": "https://github.com/Houroux/Back-end-P7-Dev-Web-livres",
+    "github": "https://github.com/arthurtrovato/Back-end-P7-Dev-Web-livres",
     "problematiques": "Création d'un système de notation de livre en m'appuyant sur la documentation de MongoDB."
   },
   {
@@ -35,7 +35,7 @@
     ],
     "description": "Correction de bugs, optimisation des images du site, du code et de sa structure, afin d’améliorer le chargement et l’accessibilité du site.",
     "tools": ["RichSnippet", "LightHouse", "Wave", "GitHub", "VSCode"],
-    "github": "https://github.com/Houroux/nina-carducci.github.io"
+    "github": "https://github.com/arthurtrovato/nina-carducci.github.io"
   },
   {
     "title": "Planification du développement du site web Menu Maker by Qwenta",
@@ -63,6 +63,6 @@
     ],
     "description": "Développement d'un site vitrine avec page de connexion pour l'administateur et une modale d'upload de photos.",
     "tools": ["Html", "Css", "Javascript"],
-    "github": "https://github.com/Houroux/Portfolio-architecte-sophie-bluel"
+    "github": "https://github.com/arthurtrovato/Portfolio-architecte-sophie-bluel"
   }
 ]

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.fb98d008.css",
-    "main.js": "/my-portfolio/static/js/main.252bb61c.js",
+    "main.js": "/my-portfolio/static/js/main.0c612b19.js",
     "static/media/IMG_2473.png": "/my-portfolio/static/media/IMG_2473.e9e3b8062a7b5fda5609.png",
     "static/media/brave_PMr33Wy1UI.png": "/my-portfolio/static/media/brave_PMr33Wy1UI.be914260ec4754efafef.png",
     "static/media/ext-553-removebg-preview.png": "/my-portfolio/static/media/ext-553-removebg-preview.1e6c5879fba63d4c1dbe.png",
@@ -16,10 +16,10 @@
     "static/media/daily-dev-icon-logo-F2FF3407F0-seeklogo.com.png": "/my-portfolio/static/media/daily-dev-icon-logo-F2FF3407F0-seeklogo.com.853d41d97d5261e0f220.png",
     "index.html": "/my-portfolio/index.html",
     "main.fb98d008.css.map": "/my-portfolio/static/css/main.fb98d008.css.map",
-    "main.252bb61c.js.map": "/my-portfolio/static/js/main.252bb61c.js.map"
+    "main.0c612b19.js.map": "/my-portfolio/static/js/main.0c612b19.js.map"
   },
   "entrypoints": [
     "static/css/main.fb98d008.css",
-    "static/js/main.252bb61c.js"
+    "static/js/main.0c612b19.js"
   ]
 }
