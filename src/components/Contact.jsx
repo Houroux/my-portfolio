@@ -27,7 +27,7 @@ export default function Contact() {
       </a>
       <a
         className="rounded  bg-third p-4 text-white sm:mb-8 sm:p-8 sm:text-xl"
-        href="https://houroux.github.io/my-portfolio/CV_Arthur_TROVATO_3WA.pdf"
+        href="https://arthurtrovato.github.io/my-portfolio/CV_Arthur_TROVATO_3WA.pdf"
         target="_blank"
         rel="noopener noreferrer"
       >
